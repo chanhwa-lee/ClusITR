@@ -2,8 +2,12 @@
 
 ## Replication code for Zhang & Imai (2023)[https://arxiv.org/abs/2311.02467]
 
+- See `simul_Zhang_replicate.R`: simulation results are in `Output_Zhang`
+
 - Mixed Integer Linear Programming to find optimal ITR under Clustered Interference
-- Two plots are
+![MIP formulation Note](https://github.com/chanhwa-lee/ClusITR/blob/main/MIP%20formulation%20Note.jpeg)
+
+- Two plots will be generated if running last part of `simul_Zhang_replicate.R`:
   1. Policy Value $$V(\hat{\pi})$$ for each learned policy $$\hat{\pi}$$ by different methods -- see how the regret is decreasing
   2. Learned $$\hat{\beta}$$ values compared to the Oracle $\beta$ values -- see how the learned policy coefficients are close to the oracle coefficients
 
