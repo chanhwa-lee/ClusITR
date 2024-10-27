@@ -9,7 +9,15 @@
 
 - Two plots will be generated if running last part of `simul_Zhang_replicate.R`:
   1. Policy Value $$V(\hat{\pi})$$ for each learned policy $$\hat{\pi}$$ by different methods -- see how the regret is decreasing
+
+   ![Learned Policy Value by Method](https://github.com/user-attachments/assets/0c6dfec4-6052-4a0d-af8b-172c79c61602)
+
+     
   2. Learned $$\hat{\beta}$$ values compared to the Oracle $\beta$ values -- see how the learned policy coefficients are close to the oracle coefficients
+     
+ ![Bias of Beta Estimates by Method and Sample Size](https://github.com/user-attachments/assets/57ac7af4-3baf-4d0d-bd8d-3e6f357950e2)
+
+      
 
 ## Future direction
 
