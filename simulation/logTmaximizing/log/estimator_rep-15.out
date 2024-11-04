@@ -1,0 +1,213 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.4
+✔ ggplot2   3.4.4     ✔ stringr   1.5.1
+✔ lubridate 1.9.3     ✔ tibble    3.2.1
+✔ purrr     0.3.5     ✔ tidyr     1.2.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: slam
+Using the GLPK callable library version 4.65
+Loading required package: foreach
+
+Attaching package: ‘foreach’
+
+The following objects are masked from ‘package:purrr’:
+
+    accumulate, when
+
+Loading required package: iterators
+Loading required package: parallel
+       id               Y                  T                   C            
+ Min.   : 1.000   Min.   : 0.01416   Min.   :  0.01416   Min.   :  0.04946  
+ 1st Qu.: 3.000   1st Qu.: 0.69510   1st Qu.:  0.73808   1st Qu.:  5.07116  
+ Median : 6.000   Median : 1.06885   Median :  1.12251   Median : 16.60959  
+ Mean   : 5.696   Mean   : 1.63136   Mean   :  3.52504   Mean   : 29.42505  
+ 3rd Qu.: 9.000   3rd Qu.: 1.57823   3rd Qu.:  1.73747   3rd Qu.: 30.88480  
+ Max.   :10.000   Max.   :21.58038   Max.   :109.36203   Max.   :315.36166  
+       D                A                X1                  X2         
+ Min.   :0.0000   Min.   :0.0000   Min.   :-2.941344   Min.   :-2.5803  
+ 1st Qu.:1.0000   1st Qu.:0.0000   1st Qu.:-0.709908   1st Qu.:-0.3991  
+ Median :1.0000   Median :0.0000   Median :-0.008025   Median : 0.2134  
+ Mean   :0.8957   Mean   :0.2957   Mean   : 0.047444   Mean   : 0.1612  
+ 3rd Qu.:1.0000   3rd Qu.:1.0000   3rd Qu.: 0.808583   3rd Qu.: 0.6858  
+ Max.   :1.0000   Max.   :1.0000   Max.   : 2.934310   Max.   : 2.4496  
+       X3                 X4          
+ Min.   :-2.79609   Min.   :-3.13465  
+ 1st Qu.:-0.99745   1st Qu.:-0.54826  
+ Median :-0.09815   Median : 0.10208  
+ Mean   :-0.16576   Mean   : 0.07072  
+ 3rd Qu.: 0.57089   3rd Qu.: 0.77809  
+ Max.   : 2.58401   Max.   : 2.64574  
+Simulation No: 1 || m = 50
+Simulation No: 2 || m = 50
+Simulation No: 3 || m = 50
+Simulation No: 4 || m = 50
+Simulation No: 5 || m = 50
+Simulation No: 6 || m = 50
+Simulation No: 8 || m = 50
+Simulation No: 7 || m = 50
+Simulation No: 10 || m = 50
+Simulation No: 9 || m = 50
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+Simulation No: 1 || m = 100
+Simulation No: 2 || m = 100
+Simulation No: 3 || m = 100
+Simulation No: 4 || m = 100
+Simulation No: 5 || m = 100
+Simulation No: 6 || m = 100
+Simulation No: 7 || m = 100
+Simulation No: 10 || m = 100
+Simulation No: 8 || m = 100
+Simulation No: 9 || m = 100
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+Simulation No: 1 || m = 200
+Simulation No: 2 || m = 200
+Simulation No: 3 || m = 200
+Simulation No: 4 || m = 200
+Simulation No: 5 || m = 200
+Simulation No: 6 || m = 200
+Simulation No: 7 || m = 200
+Simulation No: 8 || m = 200
+Simulation No: 9 || m = 200
+Simulation No: 10 || m = 200
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+Simulation No: 1 || m = 400
+Simulation No: 2 || m = 400
+Simulation No: 3 || m = 400
+Simulation No: 4 || m = 400
+Simulation No: 5 || m = 400
+Simulation No: 6 || m = 400
+Simulation No: 7 || m = 400
+Simulation No: 10 || m = 400
+Simulation No: 9 || m = 400
+Simulation No: 8 || m = 400
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done

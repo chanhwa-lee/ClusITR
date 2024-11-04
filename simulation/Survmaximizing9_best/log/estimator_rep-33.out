@@ -1,0 +1,201 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.4
+✔ ggplot2   3.4.4     ✔ stringr   1.5.1
+✔ lubridate 1.9.3     ✔ tibble    3.2.1
+✔ purrr     0.3.5     ✔ tidyr     1.2.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: slam
+Using the GLPK callable library version 4.65
+Loading required package: foreach
+
+Attaching package: ‘foreach’
+
+The following objects are masked from ‘package:purrr’:
+
+    accumulate, when
+
+Loading required package: iterators
+Loading required package: parallel
+       id               Y                 T                 C            
+ Min.   :  1.00   Min.   :0.00004   Min.   :0.00006   Min.   :  0.00004  
+ 1st Qu.: 26.00   1st Qu.:0.02747   1st Qu.:0.03952   1st Qu.:  0.09319  
+ Median : 52.00   Median :0.06472   Median :0.08240   Median :  0.41564  
+ Mean   : 51.65   Mean   :0.11104   Mean   :0.14420   Mean   :  2.20015  
+ 3rd Qu.: 77.00   3rd Qu.:0.13539   3rd Qu.:0.15828   3rd Qu.:  1.39608  
+ Max.   :100.00   Max.   :3.26558   Max.   :3.29697   Max.   :219.07233  
+       D                A                X1                 X2          
+ Min.   :0.0000   Min.   :0.0000   Min.   :-9.27845   Min.   :0.002308  
+ 1st Qu.:1.0000   1st Qu.:0.0000   1st Qu.:-1.85361   1st Qu.:0.264473  
+ Median :1.0000   Median :0.0000   Median : 0.07308   Median :0.503369  
+ Mean   :0.7672   Mean   :0.2878   Mean   : 0.11324   Mean   :0.503505  
+ 3rd Qu.:1.0000   3rd Qu.:1.0000   3rd Qu.: 2.04867   3rd Qu.:0.738841  
+ Max.   :1.0000   Max.   :1.0000   Max.   :10.39490   Max.   :0.999479  
+       X3        
+ Min.   :0.0000  
+ 1st Qu.:0.0000  
+ Median :1.0000  
+ Mean   :0.5143  
+ 3rd Qu.:1.0000  
+ Max.   :1.0000  
+Simulation No: 1 || m = 50
+Simulation No: 3 || m = 50
+Simulation No: 2 || m = 50
+Simulation No: 4 || m = 50
+Simulation No: 5 || m = 50
+Simulation No: 6 || m = 50
+Simulation No: 9 || m = 50
+Simulation No: 7 || m = 50
+Simulation No: 8 || m = 50
+Simulation No: 10 || m = 50
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+Simulation No: 3 || m = 100
+Simulation No: 4 || m = 100
+Simulation No: 2 || m = 100
+Simulation No: 1 || m = 100
+Simulation No: 5 || m = 100
+Simulation No: 7 || m = 100
+Simulation No: 6 || m = 100
+Simulation No: 8 || m = 100
+Simulation No: 10 || m = 100
+Simulation No: 9 || m = 100
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+Simulation No: 2 || m = 200
+Simulation No: 1 || m = 200
+Simulation No: 4 || m = 200
+Simulation No: 3 || m = 200
+Simulation No: 6 || m = 200Simulation No: 5 || m = 200
+
+Simulation No: 8 || m = 200
+Simulation No: 7 || m = 200
+Simulation No: 9 || m = 200
+Simulation No: 10 || m = 200
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+slurmstepd: error: *** JOB 53070044 ON c0517 CANCELLED AT 2024-11-03T19:49:07 DUE TO TIME LIMIT ***

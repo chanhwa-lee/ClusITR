@@ -1,0 +1,253 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.4
+✔ ggplot2   3.4.4     ✔ stringr   1.5.1
+✔ lubridate 1.9.3     ✔ tibble    3.2.1
+✔ purrr     0.3.5     ✔ tidyr     1.2.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: slam
+Using the GLPK callable library version 4.65
+Loading required package: foreach
+
+Attaching package: ‘foreach’
+
+The following objects are masked from ‘package:purrr’:
+
+    accumulate, when
+
+Loading required package: iterators
+Loading required package: parallel
+       id               Y                   T                  C            
+ Min.   :  1.00   Min.   :0.0000782   Min.   :0.000123   Min.   :  0.00008  
+ 1st Qu.: 25.00   1st Qu.:0.0264681   1st Qu.:0.037527   1st Qu.:  0.11323  
+ Median : 50.50   Median :0.0670732   Median :0.083515   Median :  0.42728  
+ Mean   : 48.91   Mean   :0.1035550   Mean   :0.142002   Mean   :  2.33489  
+ 3rd Qu.: 73.00   3rd Qu.:0.1307754   3rd Qu.:0.153462   3rd Qu.:  1.62096  
+ Max.   :100.00   Max.   :2.1842991   Max.   :5.573238   Max.   :147.97712  
+       D                A                X1                  X2           
+ Min.   :0.0000   Min.   :0.0000   Min.   :-12.81112   Min.   :0.0002536  
+ 1st Qu.:1.0000   1st Qu.:0.0000   1st Qu.: -2.08145   1st Qu.:0.2689803  
+ Median :1.0000   Median :0.0000   Median :  0.07080   Median :0.4969974  
+ Mean   :0.7557   Mean   :0.2948   Mean   :  0.01002   Mean   :0.4995451  
+ 3rd Qu.:1.0000   3rd Qu.:1.0000   3rd Qu.:  1.94380   3rd Qu.:0.7289604  
+ Max.   :1.0000   Max.   :1.0000   Max.   : 10.05956   Max.   :0.9994219  
+       X3        
+ Min.   :0.0000  
+ 1st Qu.:0.0000  
+ Median :1.0000  
+ Mean   :0.5113  
+ 3rd Qu.:1.0000  
+ Max.   :1.0000  
+Simulation No: 2 || m = 50
+Simulation No: 1 || m = 50Simulation No: 3 || m = 50
+
+Simulation No: 4 || m = 50
+Simulation No: 5 || m = 50
+Simulation No: 6 || m = 50
+Simulation No: 7 || m = 50
+Simulation No: 8 || m = 50
+Simulation No: 10 || m = 50
+Simulation No: 9 || m = 50
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+Simulation No: 2 || m = 100
+Simulation No: 1 || m = 100
+Simulation No: 3 || m = 100
+Simulation No: 4 || m = 100
+Simulation No: 5 || m = 100
+Simulation No: 6 || m = 100
+Simulation No: 8 || m = 100
+Simulation No: 9 || m = 100
+Simulation No: 7 || m = 100
+Simulation No: 10 || m = 100
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+Simulation No: 1 || m = 200
+Simulation No: 2 || m = 200
+Simulation No: 3 || m = 200
+Simulation No: 4 || m = 200
+Simulation No: 5 || m = 200
+Simulation No: 6 || m = 200
+Simulation No: 7 || m = 200
+Simulation No: 9 || m = 200
+Simulation No: 10 || m = 200
+Simulation No: 8 || m = 200
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+Simulation No: 3 || m = 400
+Simulation No: 1 || m = 400Simulation No: 2 || m = 400
+
+Simulation No: 4 || m = 400
+Simulation No: 5 || m = 400
+Simulation No: 6 || m = 400
+Simulation No: 7 || m = 400
+Simulation No: 9 || m = 400
+Simulation No: 10 || m = 400
+Simulation No: 8 || m = 400
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done

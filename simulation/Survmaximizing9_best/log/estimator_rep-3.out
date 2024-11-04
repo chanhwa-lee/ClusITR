@@ -1,0 +1,101 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.4
+✔ ggplot2   3.4.4     ✔ stringr   1.5.1
+✔ lubridate 1.9.3     ✔ tibble    3.2.1
+✔ purrr     0.3.5     ✔ tidyr     1.2.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Loading required package: slam
+Using the GLPK callable library version 4.65
+Loading required package: foreach
+
+Attaching package: ‘foreach’
+
+The following objects are masked from ‘package:purrr’:
+
+    accumulate, when
+
+Loading required package: iterators
+Loading required package: parallel
+       id               Y                   T                  C            
+ Min.   :  1.00   Min.   :0.0001059   Min.   :0.000202   Min.   :  0.00011  
+ 1st Qu.: 23.00   1st Qu.:0.0253445   1st Qu.:0.034035   1st Qu.:  0.09497  
+ Median : 50.00   Median :0.0630289   Median :0.075203   Median :  0.34552  
+ Mean   : 49.59   Mean   :0.0965385   Mean   :0.126489   Mean   :  2.46916  
+ 3rd Qu.: 74.00   3rd Qu.:0.1288208   3rd Qu.:0.152622   3rd Qu.:  1.40119  
+ Max.   :100.00   Max.   :0.7857461   Max.   :4.191126   Max.   :224.91730  
+       D                A                X1                X2           
+ Min.   :0.0000   Min.   :0.0000   Min.   :-10.535   Min.   :0.0009303  
+ 1st Qu.:1.0000   1st Qu.:0.0000   1st Qu.: -1.764   1st Qu.:0.2590701  
+ Median :1.0000   Median :0.0000   Median :  0.218   Median :0.4902161  
+ Mean   :0.7651   Mean   :0.3077   Mean   :  0.205   Mean   :0.4979443  
+ 3rd Qu.:1.0000   3rd Qu.:1.0000   3rd Qu.:  2.186   3rd Qu.:0.7460736  
+ Max.   :1.0000   Max.   :1.0000   Max.   :  9.547   Max.   :0.9999840  
+       X3        
+ Min.   :0.0000  
+ 1st Qu.:0.0000  
+ Median :1.0000  
+ Mean   :0.5374  
+ 3rd Qu.:1.0000  
+ Max.   :1.0000  
+Simulation No: 1 || m = 50
+Simulation No: 2 || m = 50
+Simulation No: 3 || m = 50
+Simulation No: 4 || m = 50
+Simulation No: 5 || m = 50
+Simulation No: 6 || m = 50
+Simulation No: 7 || m = 50
+Simulation No: 9 || m = 50
+Simulation No: 10 || m = 50
+Simulation No: 8 || m = 50
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. AddIPW done
+. AddIPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. No Interference IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+. Cluster IPW done
+. Oracle Indirect done
+. Cluster IPW done
+. Cluster IPW done
+. Oracle Indirect done
+. Oracle Indirect done
+slurmstepd: error: *** JOB 53070014 ON c0534 CANCELLED AT 2024-11-03T19:49:07 DUE TO TIME LIMIT ***
