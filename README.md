@@ -1,5 +1,7 @@
 # Individualized Treatment Rule under Clustered Interference
 
+Overleaf document: https://www.overleaf.com/5147233984szhkrjpwdfrb#6bcbe7
+
 ## Replication code for Zhang & Imai (2023)[https://arxiv.org/abs/2311.02467]
 
 - See `simul_Zhang_replicate.R`: simulation results are in `Output_Zhang`
